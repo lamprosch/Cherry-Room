@@ -1,0 +1,102 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2473637421" file="C:\Users\lampr\Desktop\Cherry Room\Cherry Room.prj" location="C:\Users\lampr\Desktop\Cherry Room" name="Cherry Room" target="target.mlapps" target-name="Package App">
+    <param.appname>Cherry Room</param.appname>
+    <param.authnamewatermark>Lampros Chantzis</param.authnamewatermark>
+    <param.email>lampros.ch13@gmail.com</param.email>
+    <param.company>Audiogroup of Patras University</param.company>
+    <param.icon>${PROJECT_ROOT}\Cherry Room_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Cherry Room_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Cherry Room_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Cherry Room_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>An interaural Coherence Function estimator app.</param.summary>
+    <param.description>"Cherry Room" is a GUI that uses a frame processing method in the frequency domain for estimation of Ciherence Function of two input signals. Theory about Coherence function can be found here: &lt;a href=""&gt;https://en.wikipedia.org/wiki/Coherence_(signal_processing)&lt;/a&gt;
+
+This app was developed for my diploma thesis under supervision of proffessor John Mourjopoulos and Audiogroup of Patras University.</param.description>
+    <param.screenshot>C:\Users\lampr\AppData\Local\Temp\tpb92074c8_fd9c_40d1_94fb_1a95d03756cb.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.6</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\Packaged App</param.output>
+    <param.guid>24c3613e-020f-4e15-a7d0-f6713f76f9e6</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\cherryroom.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Resources\load file.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Resources\logo.png</file>
+      <file>${PROJECT_ROOT}\Screens\Capture.PNG</file>
+      <file>${PROJECT_ROOT}\Test Audio Files</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Packaged App" optional="false">C:\Users\lampr\Desktop\Cherry Room\Packaged App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
